@@ -1,0 +1,30 @@
+[
+    {
+        "codReceta": 1,
+        "nombreReceta": "cazuela",
+        "calificacion":[
+            {
+                "nombre":"juanito",
+                "calificacion":3
+            },
+            {
+                "nombre":"pedrito",
+                "calificacion":4
+            }
+        ]
+    },
+    {
+        "codReceta": 2,
+        "nombreReceta": "pollo con papas fritas",
+        "calificacion":[
+            {
+                "nombre":"joako",
+                "calificacion":5
+            },
+            {
+                "nombre":"dante",
+                "calificacion":4
+            }
+        ]
+    }
+]

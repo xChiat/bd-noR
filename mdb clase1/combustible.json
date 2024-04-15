@@ -1,0 +1,22 @@
+[
+    {
+        "codCommbustible":93,
+        "nombreCombustible":"Gasolina 93 Oct"
+    },
+    {
+        "codCombustible":95,
+        "nombreCombustible":"Gasolina 95 Oct"
+    },
+    {
+        "codCombustible":"K100",
+        "nombreCombustible":"Parafina"
+    },
+    {
+        "codCombustible":"G100",
+        "nombreCombustible":"Gas licuado de petroleo"
+    },
+    {
+        "codCombustible":"V100",
+        "nombreCombustible":"Voltex"
+    }
+]

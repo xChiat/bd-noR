@@ -1,0 +1,75 @@
+[
+    {"id":"co110101",
+    "fecha_hora_actualizacion":"2022-07-07 09:41:27",
+    "razon_social":"IRACABAL OTTH HENRI EDWARD JEAN",
+    "direccion_calle":"VIVAR",
+    "direccion_numero":"402",
+    "id_comuna":"01101",
+    "nombre_comuna":"Iquique",
+    "id_region":"01",
+    "nombre_region":"Tarapacá",
+    "horario_atencion":"24 horas",
+    "nombre_distribuidor":"Copec",
+    "precios":
+        {
+        "gasolina 93":1240,
+        "gasolina 97":1272,
+        "petroleo diesel":1023,
+        "gasolina 95":1257
+        },
+    "metodos_de_pago":
+        {
+        "efectivo":true,
+        "cheque":true,
+        "tarjetas bancarias":true,
+        "tarjetas grandes tiendas":true
+        },
+    "ubicacion":
+        {
+        "latitud":-20.213349467685,
+        "longitud":-70.148566067219
+        },
+    "servicios":
+        {
+        "tienda":true,
+        "farmacia":true,
+        "mantencion":true
+        }
+    }
+    ,
+    {"id":"co110103",
+    "fecha_hora_actualizacion":"2022-07-06 22:53:26",
+    "razon_social":"comercializadora y distribuidora jfrm y cia limitada",
+    "direccion_calle":"SITIO NÚMERO 54-B, BARRIO INDUSTRIAL",
+    "direccion_numero":"54",
+    "id_comuna":"01101",
+    "nombre_comuna":"Iquique",
+    "id_region":"01",
+    "nombre_region":"Tarapacá",
+    "horario_atencion":"24 horas",
+    "nombre_distribuidor":"Copec",
+    "precios":
+        {
+        "gasolina 93":1240,
+        "gasolina 97":1272,
+        "petroleo diesel":1023,
+        "gasolina 95":1257
+        },
+    "metodos_de_pago":
+        {"efectivo":true,
+        "tarjetas bancarias":true,
+        "tarjetas grandes tiendas":true
+        },
+    "ubicacion":
+        {
+        "latitud":-20.204750465386,
+        "longitud":-70.14159232378
+        },
+    "servicios":
+        {
+        "tienda":true,
+        "farmacia":true,
+        "autoservicio":true
+        }
+    }
+    ]
