@@ -1,0 +1,7 @@
+> db.libros.deleteOne({"_id": ObjectId("66269d16de75d2692881d4ad")})
+{ "acknowledged" : true, "deletedCount" : 1 }
+> db.libros.deleteMany({precio:{$lt:4990}})
+{ "acknowledged" : true, "deletedCount" : 2 }
+> db.libros.deleteMany({})
+{ "acknowledged" : true, "deletedCount" : 1 }
+> db.libros.find().pretty()
