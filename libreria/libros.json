@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "pepito el soñador",
+        "autor": "Dante",
+        "precio": 12000,
+        "cantidad": 5
+    },
+    {
+        "titulo": "los tres mosqueteros",
+        "autor": "joako",
+        "precio": 15000,
+        "cantidad": 5
+    },
+    {
+        "titulo": "habia una vez",
+        "autor": "cristian",
+        "precio": 3000,
+        "cantidad": 5
+    },
+    {
+        "titulo": "daryl",
+        "autor": "Dante",
+        "precio": 12000,
+        "cantidad": 5
+    }
+]

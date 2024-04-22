@@ -1,0 +1,86 @@
+> use Arbolito
+switched to db Arbolito
+> db.createCollection("libros")
+{ "ok" : 1 }
+> db.libros.insertMany([
+... {
+... "titulo": "pepito el soñador",
+... "autor": "Dante",
+... "precio": 12000,
+... "cantidad": 5
+... },
+... {
+... "titulo": "los tres mosqueteros",
+... "autor": "joako",
+... "precio": 15000,
+... "cantidad": 5
+... },
+... {
+... "titulo": "habia una vez",
+... "autor": "cristian",
+... "precio": 2500,
+... "cantidad": 5
+... },
+... {
+... "titulo": "daryl",
+... "autor": "Dante",
+... "precio": 1200,
+... "cantidad": 5
+... }
+... ])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("66269d16de75d2692881d4ad"),
+                ObjectId("66269d16de75d2692881d4ae"),
+                ObjectId("66269d16de75d2692881d4af"),
+                ObjectId("66269d16de75d2692881d4b0")
+        ]
+}
+> db.libros.updateMany({precio:{$lt:3000}},{$set:{Editorial:[{codEditorial:"1",nombreEditorial:"pepito123"}]}})
+{ "acknowledged" : true, "matchedCount" : 2, "modifiedCount" : 2 }
+> db.libros.updateMany({precio:{$gt:9990}},{$set:{calidad:"Premium"}})
+{ "acknowledged" : true, "matchedCount" : 2, "modifiedCount" : 2 }
+> db.libros.find().pretty()
+{
+        "_id" : ObjectId("66269d16de75d2692881d4ad"),
+        "titulo" : "pepito el soñador",
+        "autor" : "Dante",
+        "precio" : 12000,
+        "cantidad" : 5,
+        "calidad" : "Premium"
+}
+{
+        "_id" : ObjectId("66269d16de75d2692881d4ae"),
+        "titulo" : "los tres mosqueteros",
+        "autor" : "joako",
+        "precio" : 15000,
+        "cantidad" : 5,
+        "calidad" : "Premium"
+}
+{
+        "_id" : ObjectId("66269d16de75d2692881d4af"),
+        "titulo" : "habia una vez",
+        "autor" : "cristian",
+        "precio" : 2500,
+        "cantidad" : 5,
+        "Editorial" : [
+                {
+                        "codEditorial" : "1",
+                        "nombreEditorial" : "pepito123"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("66269d16de75d2692881d4b0"),
+        "titulo" : "daryl",
+        "autor" : "Dante",
+        "precio" : 1200,
+        "cantidad" : 5,
+        "Editorial" : [
+                {
+                        "codEditorial" : "1",
+                        "nombreEditorial" : "pepito123"
+                }
+        ]
+}
